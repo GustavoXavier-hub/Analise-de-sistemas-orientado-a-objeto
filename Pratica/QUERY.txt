@@ -1,0 +1,18 @@
+update  aluno
+set nome = "teste"
+where idaluno =1
+
+delete from aluno
+where idaluno =1
+
+select * from aluno with(nolock)
+
+insert into aluno values (nome, rg , cpf)
+
+update aluno
+set idstatus =false
+where idaluno=1
+
+update aluno
+set idstatus =true
+where idaluno=1
